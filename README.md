@@ -47,15 +47,15 @@ This is a Spring Boot Java project for managing a library. It supports user role
   ✅ Step 1: Generate a secret key
   - Use a secure, random key generator. Here are a few ways:
     - Linux/macOS (Command Line) 
-    <pre> ```bash openssl rand -base64 32 ``` </pre>
+    <pre> ```openssl rand -base64 32 ``` </pre>
     - Open source libraries for generating a secret key
 
   ✅ Step 2: Set the secret key as an environment variable
   - 💻 Linux/macOS
     - Add this to your terminal or .bashrc / .zshrc file:
-    <pre> ```bash export JWT_SECRET="your-random-key" ``` </pre>
+    <pre> ``` export JWT_SECRET="your-random-key" ``` </pre>
  - 🪟 Windows (Command Prompt or inside IDE)
-   - <pre> ```cmd setx JWT_SECRET "your-random-key" ``` </pre>
+   - <pre> ``` setx JWT_SECRET "your-random-key" ``` </pre>
    - Pass the secret key in environment variables .
 
   
