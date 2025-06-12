@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📚 Library Management System
 
 This is a Spring Boot Java project for managing a library. It supports user roles (ADMIN, MEMBER), book borrowing logic, JWT-based authentication, and more.
@@ -59,3 +60,6 @@ This is a Spring Boot Java project for managing a library. It supports user role
    - Pass the secret key in environment variables .
 
   
+=======
+This is my private repository.
+>>>>>>> e09a1eda2ef5b5da38088aa19edb779285e6cae9
