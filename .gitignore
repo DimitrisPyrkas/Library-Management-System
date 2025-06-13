@@ -31,7 +31,10 @@ build/
 
 # Environment
 .env
-.env.*
+.env.example2
 
 ### VS Code ###
 .vscode/
+
+# Allow example file
+!.env.example
